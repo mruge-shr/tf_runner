@@ -1,0 +1,12 @@
+image:
+  repository: hashicorp/terraform
+  pullPolicy: IfNotPresent
+  tag: "latest"
+
+serviceAccount:
+  create: true
+  annotations: {}
+  name: ""
+
+tfvars: |
+  put variables here
